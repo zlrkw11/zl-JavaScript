@@ -29,3 +29,19 @@ Properties are named Values.
 Methods are Functions stored as Properties.
 
 Properties can be primitive values, functions, or even other objects.
+
+### JavaScript Primitives
+
+primitive values are values that have no properties or methods.
+7 types:
+string
+number
+boolean
+null
+undefined
+symbol
+bigint
+
+primitives are immutable unlike objects.
+
+### Objects Are Mutable
