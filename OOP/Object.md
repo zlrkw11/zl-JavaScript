@@ -21,3 +21,11 @@ can use the **new** keyword to create a new object.
 ```
 const person = new Object();
 ```
+
+Objects are containers for Properties and Methods.
+
+Properties are named Values.
+
+Methods are Functions stored as Properties.
+
+Properties can be primitive values, functions, or even other objects.
