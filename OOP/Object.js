@@ -10,3 +10,5 @@ car[x];
 // add / delete properties
 car.year = 2009;
 delete car.year;
+
+// object methods

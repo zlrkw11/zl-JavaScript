@@ -79,3 +79,27 @@ delete person["age"];
 ```
 
 ## Object Methods
+
+function stored as a property value inside an object.
+
+```
+const person = {
+  firstName: "John",
+  lastName: "Doe",
+  id: 5566,
+  fullName: function() {
+    return this.firstName + " " + this.lastName;
+  }
+};
+```
+
+in this case, the **this** refers to the **person** object.
+
+### Access Object Methods
+
+```
+objectName.methodName();
+```
+
+- if invoked - object.methodName(), it executes as a function
+- if invoked - object.methodName, it returns the function definition(code)
