@@ -55,3 +55,5 @@ const x = person;
 x is **not a copy of** person. The object x **is** person.
 they share the same memory address.
 any changes made to x will also change the person
+
+refer to: https://www.w3schools.com/js/js_objects.asp
