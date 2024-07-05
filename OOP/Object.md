@@ -45,3 +45,13 @@ bigint
 primitives are immutable unlike objects.
 
 ### Objects Are Mutable
+
+addressed by reference, not by value.
+
+```
+const x = person;
+```
+
+x is **not a copy of** person. The object x **is** person.
+they share the same memory address.
+any changes made to x will also change the person
