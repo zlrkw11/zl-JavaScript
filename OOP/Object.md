@@ -103,3 +103,13 @@ objectName.methodName();
 
 - if invoked - object.methodName(), it executes as a function
 - if invoked - object.methodName, it returns the function definition(code)
+
+### Adding Method To Object
+
+same as adding any other properties
+
+```
+person.name = function(){
+    return this.firstName + " " + this.lastName;
+}
+```
