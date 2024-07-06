@@ -12,3 +12,6 @@ car.year = 2009;
 delete car.year;
 
 // object methods
+car.run = function () {
+  console.log("vroo,");
+};
