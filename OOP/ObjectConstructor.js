@@ -5,7 +5,7 @@ function Car(brand, type, name, price) {
   this.name = name;
   this.price = price;
   this.start = function () {
-    console.log(this.name + " is starting");
+    return this.name + " is starting";
   };
 }
 
@@ -29,4 +29,4 @@ Car.energyType = "gas"; // incorrect
 Car.prototype.energyType = "gas"; // correct
 
 // constructor method
-Car1.start();
+console.log(Car1.start());
