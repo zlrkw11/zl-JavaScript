@@ -23,3 +23,4 @@ Car1.energyType = "gas";
 
 // cannot add properties to a constructor
 Car.energyType = "gas"; // incorrect
+Car.prototype.energyType = "gas"; // correct
