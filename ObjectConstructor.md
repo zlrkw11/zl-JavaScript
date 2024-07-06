@@ -14,3 +14,6 @@ function Car(brand, type, name, price) {
 const Car1 = new Car("Toyota", "sports car", "86", "40k");
 const Car2 = new Car("Toyota", "SUV", "RAVV 4", "20k");
 ```
+
+**this** stands for the current object. So, in constructor function, it has no value.
+The value of **this** turns into the new object when a new object is created.
