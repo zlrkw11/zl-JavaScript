@@ -17,3 +17,6 @@ function Person(first, last, age, eyecolor) {
   this.eyeColor = eyecolor;
   this.nationality = "English"; // nationality will be unified to the same for all objects
 }
+
+// adding a property
+Car1.energyType = "gas";
