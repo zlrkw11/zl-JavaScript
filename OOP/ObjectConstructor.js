@@ -4,6 +4,9 @@ function Car(brand, type, name, price) {
   this.type = type;
   this.name = name;
   this.price = price;
+  this.start = function () {
+    console.log(this.name + " is starting");
+  };
 }
 
 const Car1 = new Car("Toyota", "sports car", "86", "40k");
@@ -24,3 +27,6 @@ Car1.energyType = "gas";
 // cannot add properties to a constructor
 Car.energyType = "gas"; // incorrect
 Car.prototype.energyType = "gas"; // correct
+
+// constructor method
+Car1.start();
