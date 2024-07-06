@@ -18,5 +18,8 @@ function Person(first, last, age, eyecolor) {
   this.nationality = "English"; // nationality will be unified to the same for all objects
 }
 
-// adding a property
+// adding a property to an object
 Car1.energyType = "gas";
+
+// cannot add properties to a constructor
+Car.energyType = "gas"; // incorrect
