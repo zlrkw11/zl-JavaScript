@@ -21,8 +21,6 @@ const cars = new Array("Lancer", "Axela", "Corolla");
 
 arrays are objects. Array elements can be objects.
 
-## Methods
-
 ```
 const points = new Array(40);
 ```
