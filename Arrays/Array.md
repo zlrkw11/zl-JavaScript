@@ -18,3 +18,21 @@ or
 
 const cars = new Array("Lancer", "Axela", "Corolla");
 ```
+
+arrays are objects. Array elements can be objects.
+
+## Methods
+
+```
+const points = new Array(40);
+```
+
+creates array with 40 undefined elements
+
+while
+
+```
+const points = [40];
+```
+
+creates array with one element
