@@ -22,6 +22,17 @@ Corolla
 join() method, behaves like toString(), but we can specify the separator
 
 ```
-cars.join(" * ")
+cars.join(" * ");
 Lancer * Axela * Corolla * Prius
+```
+
+## Pop and Push
+
+modifies the arrays themeselves
+pop() method, removes the last element from an array
+push() method adds a new element at the end
+
+```
+cars.pop();
+cars.push();
 ```
