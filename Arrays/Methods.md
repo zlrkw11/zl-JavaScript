@@ -36,3 +36,5 @@ push() method adds a new element at the end
 cars.pop();
 cars.push();
 ```
+
+## Shift and Unshift
